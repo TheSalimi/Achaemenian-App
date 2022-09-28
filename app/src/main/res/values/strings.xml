@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Story APP</string>
+    <string name="rate_us">Rate us</string>
+    <string name="stories">Stories</string>
+    <string name="categories">Categories</string>
+    <string name="more">More</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="random_story">Random Story</string>
+    <string name="story_app">Story App</string>
+    <string name="home">Home</string>
 </resources>
