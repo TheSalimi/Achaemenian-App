@@ -10,4 +10,5 @@
     <string name="home">Home</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="sample_story_title">Sample story title</string>
 </resources>
