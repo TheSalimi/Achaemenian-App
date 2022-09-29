@@ -1,5 +1,6 @@
 package com.example.storyapp
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,6 +27,14 @@ class ItemAdaptor(val storyTitles: Array<String>, val storyContents: Array<Strin
         holder.cardTitle.text=storyTitles[position]
         holder.cardContent.text=storyContents[position]
         Picasso.get().load(storyImages[position]).into(holder.cardImage)
+
+        holder.view.setOnClickListener{
+            val intent = Intent(it.context, Details::class.java)
+            intent.putExtra("storyTitle",storyTitles[position])
+            intent.putExtra("storyContent",storyContents[position])
+            intent.putExtra("storyImage",storyImages[position])
+            holder.view.context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int = storyTitles.size
