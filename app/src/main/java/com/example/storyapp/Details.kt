@@ -21,6 +21,7 @@ class Details :AppCompatActivity() {
 
         Picasso.get().load(storyImage).into(story_Image)
         storyDetails.text = storyContent
+        storyName.text = storyTitle
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

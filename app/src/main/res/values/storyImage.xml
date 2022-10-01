@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="storyImages">
-        <item>https://picsum.photos/id/1015/367/267</item>
-        <item>https://picsum.photos/id/1024/1920/1280</item>
-        <item>https://picsum.photos/id/1025/367/267</item>
-        <item>https://picsum.photos/id/1015/367/267</item>
-        <item>https://picsum.photos/id/1024/1920/1280</item>
-        <item>https://picsum.photos/id/1025/367/267</item>
-        <item>https://picsum.photos/id/1015/367/267</item>
-        <item>https://picsum.photos/id/1024/1920/1280</item>
-        <item>https://picsum.photos/id/1025/367/267</item>
-        <item>https://picsum.photos/id/1015/367/267</item>
-        <item>https://picsum.photos/id/1024/1920/1280</item>
-        <item>https://picsum.photos/id/1025/367/267</item>
+        <!--        cyrus-->
+        <item>https://upload.wikimedia.org/wikipedia/commons/d/db/Cyrus_the_Great_II.jpg</item>
+        <item>https://www.factinate.com/wp-content/uploads/2019/09/GettyImages-814450084-1024x854.jpg</item>
+        <item>https://www.worldhistory.org/uploads/images/265.png?v=1643830205</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cyrus_Cylinder_front.jpg/1024px-Cyrus_Cylinder_front.jpg</item>
+        <!--        darius-->
+        <item>https://qph.cf2.quoracdn.net/main-qimg-1281b1d956c6a29329936f0376e16d61-lq</item>
+        <!--        monarchy-->
+        <item>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3xkszuC7MtiuslY57GTCI1RsgbAi_C0u8N0-en_FD7Wa1k0GO6HwzuqO12FWfkEMg9z4&amp;usqp=CAU</item>
+        <!--        Fortification of the empire-->
+        <item>https://cosmolearning.org/images_dir/education/photos/933.jpg</item>
+        <!--        Darius as an administrator-->
+        <item>https://i.natgeofe.com/n/2710b9ca-746f-49b2-aca2-cc289eb8130c/01-darius-i-ancient-figures_4x3.jpg</item>
+        <!--        cambyses II-->
+        <item>https://cdn.historycollection.com/wp-content/uploads/2017/03/ThingLink-Cambyses-II.jpeg</item>
+        <!--        bardiya-->
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/6a/Gaumata_portrait_on_the_Behistun_inscription.jpg</item>
+        <!--        xerxes I-->
+        <item>https://www.thefamouspeople.com/profiles/images/xerxes-i-1.jpg</item>
+        <!--        Accession to the throne-->
+        <item>https://www.cyruscrafts.com/img/cms/blog/xerxes/xerxes.jpg</item>
+        <!--            war with greeks-->
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kaulbach%2C_Wilhelm_von_-_Die_Seeschlacht_bei_Salamis_-_1868.JPG/800px-Kaulbach%2C_Wilhelm_von_-_Die_Seeschlacht_bei_Salamis_-_1868.JPG</item>
+        <!--            Withdrawal to Persia of Xerxes I-->
+        <item>https://cdn.britannica.com/28/99728-050-0B5D2064/Leonidas-Thermopylae-oil-canvas-Jacques-Louis-David-Paris-1814.jpg</item>
+        <!--            artaxerxes-->
+        <item>https://www.worldhistory.org/img/r/p/500x600/4570.jpg?v=1642705202</item>
+
+        <!--            xerxes II-->
+        <item>https://www.ancient-origins.net/sites/default/files/field/image/Xerxes.jpg</item>
+
+        <!--            darius II-->
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/38/Drachma_Darius_II_Obverse.jpg</item>
+
+        <!--            Artaxerxes II-->
+        <item>https://www.worldhistory.org/img/r/p/500x600/11962.jpg?v=1639656002</item>
+
+        <!--            Artaxerxes III-->
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/73/Orontes_I_portrait.jpg</item>
+
+        <!--            Artaxerxes IV-->
+<item>https://upload.wikimedia.org/wikipedia/commons/4/40/Artaxerxes_IV.jpg</item>
+        <!--            Darius III-->
+        <item>https://www.worldhistory.org/uploads/images/13338.jpeg?v=1618590619</item>
+
     </string-array>
 </resources>

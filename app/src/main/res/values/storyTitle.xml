@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string-array name="storyTitles">
-        <item>Cousin Tribulations Story</item>
-        <item>The Story of An Hour</item>
-        <item>The Tale of Peter Rabbit</item>
-        <item>A New England Nun</item>
-        <item>Cousin Tribulations Story</item>
-        <item>The Story of An Hour</item>
-        <item>The Tale of Peter Rabbit</item>
-        <item>A New England Nun</item>
-        <item>Cousin Tribulations Story</item>
-        <item>The Story of An Hour</item>
-        <item>The Tale of Peter Rabbit</item>
-        <item>A New England Nun</item>
+        <item>Cyrus the great</item>
+        <item>Life of a legend</item>
+        <item>Cyrus’s conquests</item>
+        <item>The legacy of Cyrus</item>
+        <item>Darius the great</item>
+        <item>Ascent to monarchy</item>
+        <item>Fortification of the empire</item>
+        <item>Darius as an administrator</item>
+        <item>Cambyses II</item>
+        <item>Bardiya</item>
+        <item>Xerxes I</item>
+        <item>Accession to the throne</item>
+        <item>War against the Greeks</item>
+        <item>Withdrawal to Persia of Xerxes I</item>
+        <item>Artaxerxes I</item>
+        <item>Xerxes II</item>
+        <item>Darius II</item>
+        <item>Artaxerxes II</item>
+        <item>Artaxerxes III</item>
+        <item>Artaxerxes IV</item>
+        <item>Darius III</item>
     </string-array>
 </resources>
