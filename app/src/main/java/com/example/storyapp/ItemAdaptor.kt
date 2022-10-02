@@ -28,11 +28,42 @@ class ItemAdaptor(val storyTitles: Array<String>, val storyContents: Array<Strin
         holder.cardContent.text=storyContents[position]
         Picasso.get().load(storyImages[position]).into(holder.cardImage)
 
+
+
         holder.view.setOnClickListener{
+            val time : String
             val intent = Intent(it.context, Details::class.java)
             intent.putExtra("storyTitle",storyTitles[position])
             intent.putExtra("storyContent",storyContents[position])
             intent.putExtra("storyImage",storyImages[position])
+
+            time =
+            if(position<=3)  "560_530 BC"
+
+            else if(position>3 && position<8) "522–486 BC"
+
+            else if(position==8) "530–522 BC"
+
+            else if(position==9)  "522 BC"
+
+            else if(position>=10 && position<=13)  "486-465 BC"
+
+            else if(position==14)  "465–424 BC"
+
+            else if(position==15) "424 BC"
+
+            else if(position==16) "423–405 BC"
+
+            else if(position==17) "405–358 BC"
+
+            else if(position==18) "358–338 BC"
+
+            else if(position==19)  "338–336 BC"
+
+            else "336–330 BC"
+
+            intent.putExtra("time",time)
+
             holder.view.context.startActivity(intent)
         }
     }

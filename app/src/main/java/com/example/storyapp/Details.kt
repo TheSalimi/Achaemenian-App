@@ -15,13 +15,12 @@ class Details :AppCompatActivity() {
         val storyTitle = intent.getStringExtra("storyTitle")
         val storyContent = intent.getStringExtra("storyContent")
         val storyImage = intent.getStringExtra("storyImage")
-
-        supportActionBar?.title = storyTitle
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        val storyTime = intent.getStringExtra("time")
 
         Picasso.get().load(storyImage).into(story_Image)
         storyDetails.text = storyContent
         storyName.text = storyTitle
+        time.text = storyTime
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
