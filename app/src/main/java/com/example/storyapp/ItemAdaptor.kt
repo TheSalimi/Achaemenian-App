@@ -77,37 +77,64 @@ class ItemAdaptor(
             //xerxes I
             else if (position >= 10 && position <= 13) {
                 time = "486-465 BC"
+                youTubeLink = "https://www.youtube.com/watch?v=OGXl5vYP094"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Xerxes_I"
+                britannica = "https://www.britannica.com/summary/Xerxes-I#:~:text=Xerxes%20I%20%2C%20Persian%20Khshayarsha%2C%20(,)%20and%20Babylonia%20(482)."
             }
             //artaxerxes I
             else if (position == 14) {
                 time = "465–424 BC"
+                britannica="https://www.britannica.com/biography/Artaxerxes-I#:~:text=Artaxerxes%20I%2C%20(died%20425%20bc,reigned%20465%E2%80%93425%20bc).&text=He%20was%20surnamed%20in%20Greek,Artabanus%2C%20who%20had%20murdered%20Xerxes."
+                wikipediaLink="https://en.wikipedia.org/wiki/Artaxerxes_I"
+                youTubeLink="https://www.youtube.com/watch?v=c9HpQSpFRyo"
             }
             //xerxes II
             else if (position == 15) {
                 time = "424 BC"
+                youTubeLink = "https://www.youtube.com/watch?v=RnHTay2bO5s"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Xerxes_II"
+                britannica = "https://www.britannica.com/biography/Xerxes-II"
             }
             //darius II
             else if (position == 16) {
                 time = "423–405 BC"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Darius_II"
+                britannica = "https://www.britannica.com/biography/Darius-II-Ochus"
+                youTubeLink = "https://www.youtube.com/watch?v=orh4wzDzdFo"
             }
             //artaxerxes II
             else if (position == 17) {
                 time = "405–358 BC"
+                youTubeLink = "https://www.youtube.com/watch?v=TWo_7hsDtH0"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Artaxerxes_II"
+                britannica = "https://www.britannica.com/biography/Artaxerxes-II"
             }
             //artaxerxes III
             else if (position == 18) {
                 time = "358–338 BC"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Artaxerxes_III"
+                britannica ="https://www.britannica.com/biography/Artaxerxes-III"
+                youTubeLink = "https://www.youtube.com/watch?v=7pGOc17-k4Y"
             }
             //artaxerxes IV
             else if (position == 19) {
                 time = "338–336 BC"
+                britannica = "https://www.britannica.com/biography/Arses#:~:text=Arses%2C%20(died%20June%20336%20bc,Artaxerxes%20III%20Ochus%20and%20Atossa.&text=Arses%20had%20been%20placed%20on,father%20and%20all%20his%20brothers."
+                wikipediaLink = "https://en.wikipedia.org/wiki/Arses_of_Persia"
+                youTubeLink = "null"
             }
             //darius III
             else {
                 time = "336–330 BC"
+                youTubeLink = "https://www.youtube.com/watch?v=-A-5KUcHEAM"
+                wikipediaLink = "https://en.wikipedia.org/wiki/Darius_III"
+                britannica = "https://www.britannica.com/biography/Darius-III"
             }
 
             intent.putExtra("time", time)
+            intent.putExtra("wiki" , wikipediaLink)
+            intent.putExtra("youtube" , youTubeLink)
+            intent.putExtra("britannica" , britannica)
 
             holder.view.context.startActivity(intent)
         }
