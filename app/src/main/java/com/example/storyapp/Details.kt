@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.view.MenuItem
+import android.view.MotionEvent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.squareup.picasso.Picasso
@@ -14,6 +15,7 @@ class Details : AppCompatActivity() {
     private lateinit var wikipediaLink: String
     private lateinit var youtubeLink: String
     private lateinit var britannicaLink: String
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
@@ -52,7 +54,9 @@ class Details : AppCompatActivity() {
             openURL.data = Uri.parse(britannicaLink)
             startActivity(openURL)
         }
+
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home) onBackPressed()
